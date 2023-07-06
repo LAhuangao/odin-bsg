@@ -1,0 +1,72 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px;
+    background-color:#041b3a;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+}
+
+.Banner {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+    
+}
+
+.Banner .Logo {
+    width: 400px;
+}
+
+.Banner .Links {
+    display: flex;
+    justify-content: flex-end;
+    /* flex: 1; */
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.Banner .item {
+    /* width: 150px; */
+    font-size: 30px;
+    /* align-self: center; */
+}
+
+.Intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 500px; */
+    flex: 1;
+}
+
+.Intro .Art img {
+    width: 500px;
+    /* height: 20px; */
+}
+
+.Title {
+    font-family: Robot;
+    font-size: 50px;
+    font: extra-bold;
+
+}
+
+.character_logo .character_logo {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.character_logo .logo {
+    flex: 1;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+
+
