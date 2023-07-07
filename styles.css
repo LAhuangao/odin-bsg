@@ -49,9 +49,10 @@ p {
 }
 
 .Title {
-    font-family: Robot;
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
-    font: extra-bold;
+    font-weight: 700;
+    /* font: extra-bold; */
 
 }
 
@@ -66,7 +67,31 @@ p {
     text-align: center;
 }
 
+h1 {
+    color:darkred;
+}
 
+.Quotes ul {
+    display: flex;
+    flex-direction: column;
+}
 
+.Quotes li {
+    font-family: 'Lato', sans-serif;
+    /* font: italic 300; */
+    font-style: italic;
+    font-size: 40px;
+    flex: 1;
+}
 
+.Storylines li {
+    font-family: 'Lato', sans-serif;
+    /* font: italic 300; */
+    /* font-style: italic; */
+    font-size: 30px;
+    flex: 1;
+}
 
+.Copyright {
+    text-align: center;
+}
